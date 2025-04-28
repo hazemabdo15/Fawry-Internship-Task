@@ -51,7 +51,7 @@ fi
 
 args=()
 $invert && args+=("-v")
-show_numbers && args+=("-n")
+$show_numbers && args+=("-n")
 args+=("-i")
 args+=("--")
 args+=("$pattern")
