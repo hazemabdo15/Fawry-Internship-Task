@@ -23,6 +23,7 @@ Then you can run:
 Hello world
 HELLO AGAIN
 ```
+<img width="318" alt="fawry-task1 1" src="https://github.com/user-attachments/assets/f211f8e0-e03d-40c9-82c4-30f8d50de261" />
 
 ### 2. With line numbers
 ```bash
@@ -33,6 +34,7 @@ HELLO AGAIN
 1:Hello world
 4:HELLO AGAIN
 ```
+<img width="300" alt="fawry-task1 2" src="https://github.com/user-attachments/assets/f5e591e7-c73d-46fe-a5e8-b00b7fa702e0" />
 
 ### 3. Invert match + line numbers
 ```bash
@@ -45,6 +47,7 @@ HELLO AGAIN
 5:Don't match this line
 6:Testing one two three
 ```
+<img width="277" alt="fawry-task1 3" src="https://github.com/user-attachments/assets/3b5ca193-effc-41a5-ba36-dcc2e74b5349" />
 
 ### 4. Missing search string
 ```bash
@@ -58,6 +61,20 @@ Usage: ./mygrep.sh [-n] [-v] SEARCH_STRING FILE
   -v   Invert the match (print non-matching lines)
   --help  Display this help message
 ```
+<img width="257" alt="fawry-task1 4" src="https://github.com/user-attachments/assets/332044c5-8570-4c27-a564-137c9cb361b0" />
+
+### 5. Printing help message
+```bash
+./mygrep.sh --help
+```
+**Output:**
+```
+Usage: ./mygrep.sh [-n] [-v] SEARCH_STRING FILE
+  -n   Show line numbers for each match
+  -v   Invert the match (print non-matching lines)
+  --help  Display this help message
+```
+<img width="225" alt="fawry-task1 5" src="https://github.com/user-attachments/assets/dad53eea-853f-460a-91d1-fbdd1c0d5498" />
 
 ---
 
